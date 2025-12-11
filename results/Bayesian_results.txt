@@ -1,0 +1,16 @@
+Optimization Method: Bayesian
+==================================================
+
+Simulation Method: SpiceLib
+
+Optimized Parameters:
+  R = 0.371138 Ω
+  L = 2.198487e-08 H
+  C = 4.661281e-09 F
+
+Final Error: 5746.274855
+
+Number of Iterations: 100
+Initial Error: 12450133.588805
+Final Error: 12412.025969
+Improvement: 99.90%

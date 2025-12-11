@@ -1,0 +1,16 @@
+Optimization Method: LBFGSB
+==================================================
+
+Simulation Method: SpiceLib
+
+Optimized Parameters:
+  R = 1.457793 Ω
+  L = 6.876675e-08 H
+  C = 1.733981e-09 F
+
+Final Error: 1628147.738231
+
+Number of Iterations: 212
+Initial Error: 9865937.888771
+Final Error: 1954625.395251
+Improvement: 80.19%

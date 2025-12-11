@@ -1,0 +1,16 @@
+Optimization Method: PSO
+==================================================
+
+Simulation Method: SpiceLib
+
+Optimized Parameters:
+  R = 1.936616 Ω
+  L = 7.296933e-09 H
+  C = 1.436556e-08 F
+
+Final Error: 1603399.092932
+
+Number of Iterations: 3000
+Initial Error: 19210111.453110
+Final Error: 26721580.262171
+Improvement: -39.10%

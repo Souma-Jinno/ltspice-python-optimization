@@ -1,0 +1,16 @@
+Optimization Method: NSGA2
+==================================================
+
+Simulation Method: SpiceLib
+
+Optimized Parameters:
+  R = 0.915296 Ω
+  L = 2.299730e-08 H
+  C = 5.189254e-09 F
+
+Final Error: 52260.764179
+
+Number of Iterations: 600
+Initial Error: 23677950.661234
+Final Error: 199315.102505
+Improvement: 99.16%

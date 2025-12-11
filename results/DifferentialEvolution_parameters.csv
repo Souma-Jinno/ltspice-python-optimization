@@ -1,0 +1,2 @@
+Method,R [Ω],L [H],C [F],Final Error,Simulation
+DifferentialEvolution,0.3471409749704071,2.205264588641965e-08,4.541610356624998e-09,4744.85915905008,SpiceLib

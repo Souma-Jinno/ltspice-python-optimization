@@ -1,0 +1,16 @@
+Optimization Method: DifferentialEvolution
+==================================================
+
+Simulation Method: SpiceLib
+
+Optimized Parameters:
+  R = 0.347141 Ω
+  L = 2.205265e-08 H
+  C = 4.541610e-09 F
+
+Final Error: 4744.859159
+
+Number of Iterations: 2363
+Initial Error: 23045679.669155
+Final Error: 1598153.161004
+Improvement: 93.07%

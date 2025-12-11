@@ -1,0 +1,16 @@
+Optimization Method: CMAES
+==================================================
+
+Simulation Method: SpiceLib
+
+Optimized Parameters:
+  R = 0.346918 Ω
+  L = 2.205184e-08 H
+  C = 4.541797e-09 F
+
+Final Error: 4744.848923
+
+Number of Iterations: 700
+Initial Error: 19382294.748828
+Final Error: 4744.848935
+Improvement: 99.98%

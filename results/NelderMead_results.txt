@@ -1,0 +1,16 @@
+Optimization Method: NelderMead
+==================================================
+
+Simulation Method: SpiceLib
+
+Optimized Parameters:
+  R = 0.346918 Ω
+  L = 2.205183e-08 H
+  C = 4.541797e-09 F
+
+Final Error: 4744.848922
+
+Number of Iterations: 503
+Initial Error: 9865937.888771
+Final Error: 4744.848923
+Improvement: 99.95%
