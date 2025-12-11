@@ -120,6 +120,10 @@ C1 N003 0 {C}
 | NSGA-II | 多目的最適化対応 | 不要 |
 | ベイズ最適化 | 評価回数最小化 | 不要 |
 
+## 開発支援
+
+本プロジェクトでは [Claude Code](https://claude.ai/claude-code) を開発支援に使用しています。
+
 ## ライセンス
 
 MIT License
