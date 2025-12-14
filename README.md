@@ -10,18 +10,17 @@ VNA測定データとLTSpiceシミュレーション結果を比較し、誤差�
 ## フォルダ構成
 
 ```
-simulation/
 ├── data/                    # 測定データ・回路データ
 │   ├── capacitor_1port.csv  # VNA測定データ（S11パラメータ）
 │   └── RLC.net              # LTSpiceネットリスト
 ├── results/                 # 最適化結果の出力先
-├── optimize_de.py           # 差分進化法（推奨）
-├── optimize_lbfgsb.py       # L-BFGS-B（勾配ベース）
-├── optimize_nelder_mead.py  # Nelder-Mead法
-├── optimize_nsga2.py        # NSGA-II（多目的最適化）
-├── optimize_pso.py          # 粒子群最適化
-├── optimize_cmaes.py        # CMA-ES
-├── optimize_bayesian.py     # ベイズ最適化
+├── de.py                    # 差分進化法（推奨）
+├── lbfgsb.py                # L-BFGS-B（勾配ベース）
+├── nelder_mead.py           # Nelder-Mead法
+├── nsga2.py                 # NSGA-II（多目的最適化）
+├── pso.py                   # 粒子群最適化
+├── cmaes.py                 # CMA-ES
+├── bayesian.py              # ベイズ最適化
 └── utils.py                 # 共通ユーティリティ（SpiceLib連携）
 ```
 
@@ -51,20 +50,18 @@ pip install pymoo pyswarms cma scikit-optimize
 ### 差分進化法で最適化（推奨）
 
 ```bash
-cd simulation
-python optimize_de.py
+python de.py
 ```
 
 ### 他の手法で最適化
 
 ```bash
-cd simulation
-python optimize_lbfgsb.py       # L-BFGS-B
-python optimize_nelder_mead.py  # Nelder-Mead
-python optimize_nsga2.py        # NSGA-II
-python optimize_pso.py          # PSO
-python optimize_cmaes.py        # CMA-ES
-python optimize_bayesian.py     # ベイズ最適化
+python lbfgsb.py       # L-BFGS-B
+python nelder_mead.py  # Nelder-Mead
+python nsga2.py        # NSGA-II
+python pso.py          # PSO
+python cmaes.py        # CMA-ES
+python bayesian.py     # ベイズ最適化
 ```
 
 ## SpiceLibによるLTSpice連携
@@ -130,4 +127,4 @@ MIT License
 
 ## 参考文献
 
-神野崇馬, "Python-LTSpice統合による等価回路最適化の実践", 月刊EMC, 2025.
+神野崇馬, "Python-LTSpice統合による等価回路最適化", 月刊EMC, 2025.
